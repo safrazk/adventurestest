@@ -1,0 +1,146 @@
+.container-fluid{
+background-color: black ;
+text-align: center;
+color: orange;
+padding-bottom: 2px;
+}
+
+body{
+ background-color: black !important;
+}
+
+
+/*-----------------------------Header-----------------------------*/
+
+.jumbotron{
+ margin-bottom: 0 !important;
+ padding-bottom: 20px;
+}
+.title {
+    font-family: 'Ceviche One', cursive;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.subheading {
+    font-family: 'Aclonica', sans-serif;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    
+}
+
+/*--------------------------------Navbar--------------------------*/
+
+.collapse{
+    background-color: #661a00 !important;
+    border:none;
+    border-radius: 0;
+    margin-bottom: 0 ;
+}
+.navbar-collapse{
+ margin-bottom: 0;
+}
+.navbar-inverse{
+ border:none;
+ color:orange !important;
+ margin-bottom: 0 !important;/*removed white space between navbar and columns*/
+ }
+
+.navbar-header {
+    font-family:'Ceviche One', cursive;
+    color: orange !important;
+    font-size: 35px;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.navbar-brand {
+    font-family:'Ceviche One', cursive;
+    color: orange !important; /*changed brand to orange*/
+    font-size:30px !important;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.nav-pills{
+ font-size:25px;
+ font-family:'Ceviche One', cursive; 
+ color:orange;
+ text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+} 
+
+.home{
+ color: orange !important;
+}
+
+
+
+/*-----------------------------HomePage Columns-----------------------------*/
+
+
+.selections{
+ background-color: black;
+ padding-top: 20px;/*puts space between navbar and contents*/
+}
+.colheader {
+    font-family: 'Ceviche One', cursive;
+    	text-shadow: 1px 0px #e6e6e6;
+    	font-size:37px;
+    	color:orange;
+}
+
+/*---------------------------------Gallery------------------------------------*/
+.galleryselections{
+ background-color: black;
+}
+
+@media only screen and (max-width:500px){
+.col-sm-6 {
+ margin: 5px;
+ }} /*this media query puts a space between columns when viewed on a mobile device*/ 
+/*---------------------------------Carousel-----------------------------------*/
+.carousel-inner img {
+  margin: auto;
+  width: 60%;
+
+} 
+
+.carousel img {
+   max-width: 10%;
+    min-width: 10%;
+} 
+
+@media only screen and (max-width:500px){
+.carousel-inner img {
+ width:100%;
+}} /*This allows for the size of the carousel on smaller viewports to take up the entire width of the mobile screen.*/
+
+/*--------------------------------PLUGIN--------------------------------------*/
+/*!
+ * 3D Falling Leaves
+ */
+
+.october-leaf {
+position: absolute;
+background-color: transparent;
+background-image: url('leaves.png');
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+transform: translateZ(0);
+}
